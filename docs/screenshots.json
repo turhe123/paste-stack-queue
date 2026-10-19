@@ -1,0 +1,5 @@
+[
+  {"file":"01-queue-menu.png","caption":"The menu bar panel with Queue Mode on, listing five copied items in order with an arrow marking the next one to paste.","alt":"PasteStackQueue menu bar panel showing a queue of five copied items"},
+  {"file":"02-settings.png","caption":"Settings for the global hotkeys, FIFO/LIFO paste order, join delimiter, auto-advance with Tab, clipboard restore, HUD and launch at login.","alt":"PasteStackQueue Settings window"},
+  {"file":"03-keep-or-discard.png","caption":"When you turn queue mode off, the app asks whether to keep the remaining items for later or discard them.","alt":"Alert asking to keep or discard the remaining queue items"}
+]

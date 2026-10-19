@@ -1,5 +1,7 @@
 # PasteStackQueue
 
+**🌐 Website:** [turhe123.github.io/paste-stack-queue](https://turhe123.github.io/paste-stack-queue/)
+
 **Copy many things in a row, then paste them back one by one in order with a single hotkey.**
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -30,7 +32,17 @@ PasteStackQueue is a free, open-source, 100% native, backend-free alternative to
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-queue-menu.png" alt="PasteStackQueue menu bar panel showing a queue of five copied items" width="720"></p>
+
+<p align="center"><em>The menu bar panel with Queue Mode on, listing five copied items in order with an arrow marking the next one to paste.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="PasteStackQueue Settings window" width="560"></p>
+
+<p align="center"><em>Settings for the global hotkeys, FIFO/LIFO paste order, join delimiter, auto-advance with Tab, clipboard restore, HUD and launch at login.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-keep-or-discard.png" alt="Alert asking to keep or discard the remaining queue items" width="560"></p>
+
+<p align="center"><em>When you turn queue mode off, the app asks whether to keep the remaining items for later or discard them.</em></p>
 
 ## Install
 

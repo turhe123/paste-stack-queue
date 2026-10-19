@@ -1,0 +1,60 @@
+{
+  "seo_title": "Sequential paste queue for macOS",
+  "seo_description": "Free, open-source menu bar app for macOS. Copy many items in a row, then paste them back in order with one hotkey. Native, offline, no accounts.",
+  "hero_title_line1": "Copy many things.",
+  "hero_title_accent": "Paste them in order.",
+  "hero_sub": "PasteStackQueue turns on a copy queue with Control-Option-C, then pastes each item into the frontmost app in order with Control-Option-V. Free, native and offline.",
+  "features_title": "One job, done well.",
+  "features_sub": "A small menu bar app that does multi-item copy and paste and nothing else.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Two global hotkeys",
+      "desc": "Toggle queue mode with Control-Option-C and paste the next item with Control-Option-V. Both can be re-recorded in Settings, with a warning if a shortcut is unavailable."
+    },
+    {
+      "icon": "clipboard",
+      "title": "FIFO, LIFO or paste all",
+      "desc": "Paste oldest-first or newest-first, or paste the whole queue at once joined by a newline, comma, tab, space or semicolon."
+    },
+    {
+      "icon": "text",
+      "title": "Fill forms with auto-advance",
+      "desc": "Optionally send a Tab keypress after each paste so values land in successive fields. Text, files and images can all be queued."
+    },
+    {
+      "icon": "window",
+      "title": "Menu bar queue you can edit",
+      "desc": "See queued items with the next one marked by an arrow. Drag to reorder, delete single items or clear the queue. A brief HUD confirms each copy and paste."
+    },
+    {
+      "icon": "shield",
+      "title": "Careful with sensitive data",
+      "desc": "Concealed, transient and auto-generated pasteboard types such as password manager copies are ignored. Items over 1 MB are skipped and the queue is capped at 200."
+    },
+    {
+      "icon": "clock",
+      "title": "Survives crashes and restarts",
+      "desc": "The queue is mirrored to a small JSON file, and your original clipboard can be restored when the queue empties. Launch at login is optional."
+    }
+  ],
+  "permissions_step": "When you first paste, grant Accessibility in System Settings > Privacy & Security > Accessibility so the app can send the Command-V keystroke.",
+  "faq": [
+    {
+      "q": "Is PasteStackQueue really free and open source?",
+      "a": "Yes. It is released under the MIT license, with no accounts, no ads and no paid tier. The full source is on GitHub, and a donation link is there if you want to support development."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Only Accessibility, which is used to send Command-V (and the optional Tab) to the frontmost app. Without it, the paste hotkey still places the next item on your clipboard and you press Command-V yourself. The app has no network access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only on your Mac. While the queue has items, it is mirrored to a small JSON file in ~/Library/Application Support/PasteStackQueue/ so a crash does not lose it. Nothing is sent anywhere."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to launch it, or build it yourself from source with Xcode."
+    }
+  ]
+}
